@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">registration page</string>
+    <string name="gender">Gender</string>
+    <string name="registration">registration</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="enter_your_date">Enter your date</string>
+    <string name="birthday_date">Birthday Date:</string>
+    <string name="enter_your_repassword">Enter your repassword</string>
+    <string name="re_password">Re-password:</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password:</string>
+    <string name="email_address">email address:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name">Name:</string>
+</resources>
