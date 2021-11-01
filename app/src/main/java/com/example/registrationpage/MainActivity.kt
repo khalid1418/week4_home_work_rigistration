@@ -25,9 +25,13 @@ class MainActivity : AppCompatActivity() {
 
       if (checkname.isEmpty()||checkmail.isEmpty()||checkpassword.isEmpty()||checkpassword2.isEmpty()||checkdate.isEmpty()){
         binding.result.text="fill all the space Please"
-      }else if (checkpassword==checkpassword2){
-          binding.result.text="your name is $checkname your mail is $checkmail you last number of password is ${checkpassword.last()}"
-      }else binding.result.text="password faild match"
+      }else if (checkpassword !=checkpassword2){
+          binding.result.text="password fail match"
+
+      }else if (!checkmail.contains('@')&&!checkmail.contains(".com")){
+          binding.result.text="use @ and .com"
+      }else binding.result.text="your name is $checkname your mail is $checkmail you last number of password is ${checkpassword.last()}"
+
 
 
 
