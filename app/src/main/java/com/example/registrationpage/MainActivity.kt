@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
     }
     @SuppressLint("SetTextI18n")
     fun CheckInput(){
-      val checkname =binding.editText.text.toString()
-      val checkmail =binding.editTextTextEmailAddress2.text.toString()
-      val checkpassword=binding.editTextTextPassword.text.toString()
-      val checkpassword2=binding.editTextTextPassword2.text.toString()
-      val checkdate=binding.editTextDate.text.toString()
+      val checkname =binding.editname.text.toString()
+      val checkmail =binding.editemail.text.toString()
+      val checkpassword=binding.editpassword.text.toString()
+      val checkpassword2=binding.editrePassword.text.toString()
+      val checkdate=binding.editdate.text.toString()
 
       if (checkname.isEmpty()||checkmail.isEmpty()||checkpassword.isEmpty()||checkpassword2.isEmpty()||checkdate.isEmpty()){
         binding.result.text="fill all the space Please"

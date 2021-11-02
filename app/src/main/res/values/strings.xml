@@ -14,4 +14,6 @@
     <string name="email_address">email address:</string>
     <string name="enter_your_name">Enter your name</string>
     <string name="name">Name:</string>
+    <string name="name1">Name:</string>
+    <string name="password1">Password:</string>
 </resources>
